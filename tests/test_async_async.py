@@ -37,11 +37,6 @@ async def test_handle_nested_async_depends():
     provider.dependency_overrides[right_node_dependency] = lambda: 13
     value = await handle_dependency()
     assert value == 2 * 7 * 11 * 13
-
-
-
-
-
     
  
 open_mock = AsyncMock()
