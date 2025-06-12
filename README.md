@@ -86,7 +86,7 @@ How it works
 
 This project is licensed under the Apache License, Version 2.0 — see the [LICENSE](LICENSE) file for details.
 
-© 2024 Eric Cardozo. All rights reserved.
+© 2025 Eric Cardozo. All rights reserved.
 
 ---
 
