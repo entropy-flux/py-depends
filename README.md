@@ -83,7 +83,5 @@ How it works
 
 License
 
-This project is licensed under the Apache License 2.0 — see the LICENSE file for details.
-Contributing
-
+This project is licensed under the Apache License 2.0 — see the LICENSE file for details. 
 Contributions, issues, and feature requests are welcome! Feel free to check issues page or submit a pull request.
