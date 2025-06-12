@@ -62,7 +62,7 @@ the event loop.
 
 ```python
 @inject(provider)
-async def async_handle_dependency(root: int = Dependency(root_dependency)):
+async def async_handle_dependency(root: int = Depends(root_dependency)):
     return root*11
 
 async def main():
