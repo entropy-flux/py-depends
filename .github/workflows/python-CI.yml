@@ -1,11 +1,6 @@
 name: CI
 on:
-  push:
-    paths:
-      - '**/*.py'  
-      - 'pydepends/**' 
-      - 'tests/**' 
-      
+  push: 
   pull_request:
     paths:
       - '**/*.py' 
