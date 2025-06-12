@@ -1,6 +1,6 @@
 # PyDepends
 
-A lightweight Python dependency injection library designed to simplify managing dependencies in synchronous and asynchronous code using decorators and type-safe wrappers.
+A lightweight Python dependency injection library designed to simplify managing dependencies in synchronous and asynchronous code using decorators and type-safe wrappers. 
 
 ---
 
@@ -76,7 +76,7 @@ asyncio.run(main())
 ```
 
 How it works
-- Depends wraps a callable into a Dependency object.
+- `Depends` wraps a callable into a Dependency object.
 - Provider allows overriding dependencies (useful for testing or different environments).
 - The @inject decorator resolves and injects dependencies based on the provider.
 - Supports both synchronous and asynchronous callables, managing contexts as needed.
