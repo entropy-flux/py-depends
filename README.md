@@ -2,6 +2,7 @@
 
 A lightweight Python dependency injection library designed to simplify managing dependencies in synchronous and asynchronous code using decorators and type-safe wrappers. 
 
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 ---
 
 ## Features
@@ -83,7 +84,4 @@ How it works
 
 License
 
-This project is licensed under the Apache License 2.0 — see the LICENSE file for details.
-Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check issues page or submit a pull request.
+This project is licensed under the Apache License 2.0 — see the LICENSE file for details. Contributions, issues, and feature requests are welcome! Feel free to check issues page or submit a pull request.
