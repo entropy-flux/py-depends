@@ -58,8 +58,7 @@ assert value == 2 * 3 * 5 * 7 * 11
 print(f"Computed value: {value}")  # Output: Computed value: 2310
 ```
 
-Or inject them in an async function. Sync dependencies are put into an asyncio thread to avoid blocking
-the event loop. 
+Or inject them in an async function. Sync dependencies are put into an asyncio thread to avoid blocking the event loop. 
 
 ```python
 @inject(provider)
@@ -82,7 +81,17 @@ How it works
 - The @inject decorator resolves and injects dependencies based on the provider.
 - Supports both synchronous and asynchronous callables, managing contexts as needed.
 
-License
 
-This project is licensed under the Apache License 2.0 — see the LICENSE file for details. 
-Contributions, issues, and feature requests are welcome! Feel free to check issues page or submit a pull request.
+## License
+
+This project is licensed under the Apache License, Version 2.0 — see the [LICENSE](LICENSE) file for details.
+
+© 2024 Eric Cardozo. All rights reserved.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open issues or pull requests for bugs, features, or enhancements.
+
+---
