@@ -26,7 +26,7 @@ pip install pydepends
 Here’s a simple example showing how to define dependencies as a dependency tree:
 
 ``` python
-from pydepends.depends import inject, Depends 
+from pydepends import inject, Depends 
  
 def left_leaf_dependency():
     return 2
@@ -44,7 +44,7 @@ async def root_dependency(left: int = Depends(left_leaf_dependency), right: int 
 Inject the dependencies in a sync function:
 
 ```python 
-from pydepends.depends import Provider
+from pydepends import Provider
  
 provider = Provider()
 
