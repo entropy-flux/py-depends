@@ -1,6 +1,6 @@
 # PyDepends
 
-A lightweight Python dependency injection library designed to simplify managing dependencies in synchronous and asynchronous code using decorators and type-safe wrappers. 
+A lightweight Python dependency injection library designed to simplify managing dependencies in synchronous and asynchronous code using decorators. 
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 ---
