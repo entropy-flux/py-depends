@@ -36,7 +36,7 @@ provider = Provider()
 
 @inject(provider)
 async def main(x: int, y: int, z: int = Depends(dependency)) -> int:
-    return a + b + c
+    return x + y + z
 
 assert run(main(1, 2)) == 8
 ```
