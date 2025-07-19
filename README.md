@@ -23,6 +23,24 @@ pip install pydepends
 
 ## Quickstart
 
+Define dependencies in a simple way.
+
+``` python
+from asyncio import run
+from pydepends import inject, Depends, Provider
+
+async def dependency() -> int:
+    return 5
+
+provider = Provider()
+
+@inject(provider)
+async def main(x: int, y: int, z: int = Depends(dependency)) -> int:
+    return a + b + c
+
+assert run(main(1, 2)) == 8
+```
+
 Here’s a simple example showing how to define dependencies as a dependency tree:
 
 ``` python
