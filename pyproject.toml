@@ -1,21 +1,19 @@
-[project]
+[tool.poetry]
 name = "pydepends"
-version = "0.1.2"
-description = "Dependency injection library for python"
-authors = [
-    {name = "Eric Cardozo",email = "eric.m.cardozo@gmail.com"}
-]
-license = {text = "Apache-2.0"}
+version = "0.1.3"
+description = "A python dependency injection system"
+authors = ["entropy-flux <eric.hermosis@gmail.com>"]
+license = "Apache-2.0"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-]
 
+[tool.poetry.dependencies]
+python = "^3.12"
 
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.group.tests.dependencies]
-pytest-asyncio = "^1.0.0"
+pytest = "^8.4.1"
+pytest-asyncio = "^1.1.0"
 
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
